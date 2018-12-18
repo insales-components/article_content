@@ -1,0 +1,15 @@
+{
+  "name": "article_content",
+  "version": "1.0.0",
+  "description": "Контент статьи",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/article_content",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {
+    "products_slider": "https://github.com/insales-components/products_slider"
+  }
+}
