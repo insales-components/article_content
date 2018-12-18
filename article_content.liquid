@@ -1,0 +1,8 @@
+<h1 class="article-title page-title">
+  {{ article.title | editable }}
+</h1>
+<div class="article-text editor">
+  {{ article.content | editable }}
+</div>
+
+{% include "products_slider", products_title: 'Товары к статье:', products_array: article.related_products  %}
